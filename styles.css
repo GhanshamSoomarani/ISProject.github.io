@@ -1,0 +1,136 @@
+body {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .button {
+    background-color: #4CAF50; /* Set the background color */
+    border: none; /* Remove the border */
+    color: white; /* Set the text color */
+    padding: 16px 32px; /* Add some padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the button a block element */
+    font-size: 16px; /* Set the font size */
+    border-radius: 20px; /* Add rounded corners */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25); /* Add a shadow */
+    transition: all 0.3s ease-in-out; /* Add a transition effect */
+    margin-top: 20px;
+  }
+  .form-control {
+    height: 50px;
+    color: rgb(235, 20, 20);
+    font-size: 24px;
+    box-shadow: none;
+    padding-left: 20px;
+    padding-right: 20px;
+   
+    background: rgb(232, 224, 224);
+    border-radius: 8px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+
+}
+  .button:hover {
+    background-color: #e50808; /* Change the background color on hover */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25); /* Increase the shadow size on hover */
+    transform: translateY(-2px); /* Move the button down on hover */
+  }
+  .score {
+    line-height: 100px;
+  font-weight: bold;
+  color: rgb(247, 255, 7);
+}
+
+.time-to-crack {
+  color: rgb(208, 0, 255);
+  font-weight: bold;
+}
+
+  h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 8.0em;
+    padding-bottom: 10px;
+    margin-top: auto;
+  }
+ 
+  .header-section {
+    background-image: url("security.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #ffffff;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .header-section h1 {
+    font-size: 5.5rem;
+  }
+  
+  .intro-text {
+    padding-top: 50px;
+    color: #ffffff;
+  }
+  
+  .intro-text p {
+    font-size: 22px;
+    font-weight: normal;
+    font-style: italics;
+  }
+  .col-md-12{
+    text-align: center;
+    font-size: 30px;
+  }
+  /* The message box is shown when the user clicks on the password field */
+#message {
+  display:none;
+  background: #ffffffd8;
+  color: #000000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+#capcha {
+  display:none;
+  background: #ffffff;
+  color: #2b00ff;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+#message h3{
+  text-align: center;
+  
+  padding-bottom: 20px;
+}
+
+#message p {
+  padding: 10px 35px;
+  font-size: 25px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: rgb(41, 87, 4);
+}
+
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: "✖";
+}

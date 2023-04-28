@@ -1,0 +1,59 @@
+body {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.button {
+  background-color: #4CAF50; /* Set the background color */
+  border: none; /* Remove the border */
+  color: white; /* Set the text color */
+  padding: 16px 32px; /* Add some padding */
+  text-align: center; /* Center the text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Make the button a block element */
+  font-size: 16px; /* Set the font size */
+  border-radius: 20px; /* Add rounded corners */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25); /* Add a shadow */
+  transition: all 0.3s ease-in-out; /* Add a transition effect */
+}
+
+.button:hover {
+  background-color: #e50808; /* Change the background color on hover */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25); /* Increase the shadow size on hover */
+  transform: translateY(-2px); /* Move the button down on hover */
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 8.0em;
+  padding-bottom: 10px;
+}
+
+.header-section {
+  background-image: url("https://images.unsplash.com/7/Top_view.jpg?fit=crop&fm=jpg&h=700&ixjsv=2.0.0&ixlib=rb-0.3.5&q=80&w=1375");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #45484B;
+  height: 100vh;
+  width: 100%;
+}
+
+.header-section h1 {
+  font-size: 5.5rem;
+}
+
+.intro-text {
+  padding-top: 150px;
+  color: #ffffff;
+}
+
+.intro-text p {
+  font-size: 22px;
+  font-weight: normal;
+  font-style: italics;
+}
+.col-md-12{
+  text-align: center;
+}
+
